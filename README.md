@@ -4,13 +4,17 @@ Multi-arch container images with [docker-compose-wait](https://github.com/ufosco
 - Based on debian:stable
 - docker-compose-wait is available at `/wait` 
 
+## Usage
 
-## Build instructions
+Pre-built images for `amd64`,`arm64` and `arm` are available at [Docker Hub](https://hub.docker.com/r/codereverser/docker-compose-wait)
+
+
+## Local Build instructions
 
 ### single arch
 
 ```bash
-docker build -t fc36-docker-compose-wait:latest .
+docker build -t debian-docker-compose-wait:latest .
 ```
 
 ### multi arch
